@@ -83,18 +83,6 @@ The Qwen3 model file used by the app is approximately 332 MB. The embedding mode
 
 **Important limitation:** Offline Mode and local inference should not be interpreted as a verified system-wide network firewall or a guarantee of zero bytes transmitted. The in-app traffic display measures app-UID network traffic deltas; it does not identify destinations or prove that no data was sent to a server. A complete network audit is still required before making stronger privacy claims.
 
-## Screenshots
-
-Add screenshots from the running app here:
-
-| Chat | Documents |
-|---|---|
-| `![Chat screenshot](screenshots/chat.png)` | `![Documents screenshot](screenshots/documents.png)` |
-
-| Model Manager | Settings |
-|---|---|
-| `![Model Manager screenshot](screenshots/model-manager.png)` | `![Settings screenshot](screenshots/settings.png)` |
-
 ## Current verification
 
 The developer has tested core flows on a physical Android device, including local chat, PDF question answering and semantic retrieval, note/task actions, model persistence after restart, and chat operation in Airplane Mode after model download.
