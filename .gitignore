@@ -1,15 +1,39 @@
+# Android Studio
 *.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
+.idea/
 .DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+
+# Gradle and build outputs
+.gradle/
+.kotlin/
+**/build/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Local machine configuration
 local.properties
+
+# Signing keys and certificates
+*.jks
+*.keystore
+*.p12
+*.pem
+*.key
+key.properties
+secrets.properties
+
+# Environment secrets
+.env
+.env.*
+
+# Downloaded AI models
+*.litertlm
+*.task
+
+# Generated Android packages
+*.apk
+*.aabapp/release/
+
+# Release build outputs
+app/release/
